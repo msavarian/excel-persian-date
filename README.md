@@ -14,6 +14,7 @@ Work with persian-date (jalili) in excel
 >مثال درست 13650520
 >مثال غلط 1365/05/20
 
+> p letter at the begining of the function names (p[FunctionaName]) means Persian (don't pay attention to that)
 
 ## لیست توابع قابل استفاده
 ```
@@ -29,7 +30,7 @@ pDateDiff(13650520,13960420)     # تعداد روز اختلاف بین دو ت
 
 pDayOfWeek(13650520)     # نام روز هفته ی تاریخ ارسال شده را برمیگرداند
 
-pDayOfWeekNo(13650520)     # شماره هفته ی تاریخ ارسال شده را برمیگرداند
+pDayOfWeekNo(13650520)     # شماره روز در هفته ی تاریخ ارسال شده را برمیگرداند
 
 pFirstDayOfMonth(1365,5)     # شماره اولین روز هفته را در ماه مورد نظر را  در سال مورد نظر برمیگرداند 0= شنبه،   1=شنبه،  2=یکشنبه، ....
 
